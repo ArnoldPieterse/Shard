@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.local
+*.log
+.vscode/
+.idea/
+dist/
+build/
+*.egg-info/
+# Runtime artifacts
+shard_workers/
+scripts/last_session.json
