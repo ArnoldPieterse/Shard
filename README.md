@@ -3,6 +3,8 @@
 A borderless, glassy desktop console that **tracks text in queued, forkable
 "subprocessor" workers** and exposes them over a small **local HTTP API**.
 
+![Shard screenshot](docs/screenshot.png)
+
 There is **no model**. Each worker simply records text you (or an API caller)
 queue into it. Workers can be forked into autonomous children that share the
 parent's transcript at fork time, and any of them can be interrupted at any
